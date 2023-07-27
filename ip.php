@@ -1,9 +1,3 @@
-<?php
-	if($_GET['ip']){
-		$url = "https://be.fansmc.com/api/" . $_GET['ip'];
-		$q = json_decode(file_get_contents($url));
-	}
-?>
 <!DOCTYPE html>
 <html>
 	<head>
